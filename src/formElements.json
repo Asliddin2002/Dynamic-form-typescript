@@ -1,0 +1,92 @@
+[
+  {
+    "page_label": "Ish ga topshirish Arizasi",
+    "fields": [
+      {
+        "field_id": "english_name",
+        "field_label": "Isim",
+        "field_mandatory": "yes",
+        "field_placeholder": "Isimni kiriting",
+        "field_type": "text",
+        "field_value": ""
+      },
+      {
+        "field_id": "email",
+        "field_label": "Email",
+        "field_mandatory": "yes",
+        "field_placeholder": "Emailni kiriting",
+        "field_type": "text"
+      },
+      {
+        "field_id": "employment",
+        "field_label": "Ish turi",
+        "field_value": "Part-Time",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "To`liq bandlik"
+          },
+          {
+            "option_label": "Yarim bandlik"
+          }
+        ],
+        "field_type": "select"
+      },
+      {
+        "field_id": "contact",
+        "field_label": "Telifon raqam",
+        "field_mandatory": "yes",
+        "field_placeholder": "Telifon raqamingiz kiriting",
+        "field_type": "text"
+      },
+      {
+        "field_id": "driving_license",
+        "field_label": "Haydovchilik guvohnomam borligini tasdiqlayman.",
+        "field_type": "checkbox",
+        "field_value": "checked"
+      },
+      {
+        "field_id": "identity",
+        "field_label": "Haydonchilik guvohnomasi raqami",
+        "field_mandatory": "yes",
+        "field_placeholder": "e.g. 012 345 678",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "page_label": "O`qishga topshirish",
+    "fields": [
+      {
+        "field_id": "english_name",
+        "field_label": "Isim",
+        "field_mandatory": "yes",
+        "field_placeholder": "Isimni kiriting",
+        "field_type": "text",
+        "field_value": ""
+      },
+      {
+        "field_id": "email",
+        "field_label": "Email",
+        "field_mandatory": "yes",
+        "field_placeholder": "Emailni kiriting",
+        "field_type": "text"
+      },
+      {
+        "field_id": "employment",
+        "field_label": "O`qish turi",
+        "field_value": "Part-Time",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "Kechki talim"
+          },
+          {
+            "option_label": "Kunduzgi talim"
+          }
+        ],
+        "field_type": "select"
+      }
+    ]
+  }
+]
